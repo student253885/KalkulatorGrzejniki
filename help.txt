@@ -1,0 +1,3 @@
+git init - stworzenie repozytorium
+git clone - pobranie repozytorium z github
+git pull - pobranie zmian z repozytorium strony
