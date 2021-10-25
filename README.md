@@ -4,5 +4,4 @@
 ## Następnie strefe klimatyczną w jakiej znajduje się budynek
 ## Należy również podać izolacje cieplną budynku
 ## Do obliczenia potrzebnej mocy należy również podać stopień przeszklenia ścian, rodzaj oraz jakość
-## W ostatnim kroku należy podać rodzaj pomieszczenia oraz kondygnację na której znajduje się pomieszczenie'
-## KONIEC
+## W ostatnim kroku należy podać rodzaj pomieszczenia oraz kondygnację na której znajduje się pomieszczenie
