@@ -1,3 +1,11 @@
 git init - stworzenie repozytorium
 git clone - pobranie repozytorium z github
 git pull - pobranie zmian z repozytorium strony
+
+
+git push - wrzucenie do repozytorium zdalnego (github) (git push origin  main - branch) 
+git commit -m "opis comitta"
+git add . - dodanie do śledzenia/commit(nowe zmiany zatwierdzone)
+git status - sprawdzam aktulny stan repozytorium lokalnego
+
+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 token password
