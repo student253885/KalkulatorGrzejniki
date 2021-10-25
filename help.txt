@@ -9,3 +9,6 @@ git add . - dodanie do śledzenia/commit(nowe zmiany zatwierdzone)
 git status - sprawdzam aktulny stan repozytorium lokalnego
 
 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 token password
+
+
+git clone link
