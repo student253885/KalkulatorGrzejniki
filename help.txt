@@ -10,6 +10,7 @@ git status - sprawdzam aktulny stan repozytorium lokalnego
 
 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 token password
 
-nazwa323@gmail.com
 
 git clone link
+
+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
