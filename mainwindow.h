@@ -29,6 +29,12 @@ private slots:
 
     void on_actionNew_triggered();
 
+    void on_pushButton_2_clicked();
+
+    void on_label_4_linkActivated(const QString &link);
+
+    void on_moc_linkActivated(const QString &link);
+
 private:
     Ui::MainWindow *ui;
     QString currentFile= "";

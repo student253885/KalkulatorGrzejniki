@@ -3,9 +3,9 @@ git clone - pobranie repozytorium z github
 git pull - pobranie zmian z repozytorium strony
 
 
-git push - wrzucenie do repozytorium zdalnego (github) (git push origin  main - branch) 
-git commit -m "opis comitta"
-git add . - dodanie do śledzenia/commit(nowe zmiany zatwierdzone)
+3 git push origin main - wrzucenie do repozytorium zdalnego (github) (git push origin  main - branch) 
+2 git commit -m "opis comitta"
+1 git add . - dodanie do śledzenia/commit(nowe zmiany zatwierdzone)
 git status - sprawdzam aktulny stan repozytorium lokalnego
 
 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 token password
@@ -14,3 +14,5 @@ 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 token password
 git clone link
 
 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
+
+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

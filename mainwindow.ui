@@ -7,20 +7,20 @@
     <x>0</x>
     <y>0</y>
     <width>943</width>
-    <height>518</height>
+    <height>321</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>50</x>
       <y>20</y>
       <width>804</width>
-      <height>226</height>
+      <height>248</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_4">
@@ -118,52 +118,20 @@ p, li { white-space: pre-wrap; }
         </widget>
        </item>
        <item>
-        <widget class="QLCDNumber" name="lcdNumber"/>
+        <widget class="QLabel" name="moc">
+         <property name="text">
+          <string>MOC</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>OBLICZ</string>
+         </property>
+        </widget>
        </item>
       </layout>
-     </item>
-    </layout>
-   </widget>
-   <widget class="QWidget" name="">
-    <property name="geometry">
-     <rect>
-      <x>340</x>
-      <y>250</y>
-      <width>258</width>
-      <height>217</height>
-     </rect>
-    </property>
-    <layout class="QVBoxLayout" name="verticalLayout_5">
-     <item>
-      <widget class="QLabel" name="label_4">
-       <property name="text">
-        <string>Rodzaj izolacji:</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QListWidget" name="listWidget">
-       <item>
-        <property name="text">
-         <string>Budynek pasywny</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Budynek energooszczędny</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Budynek nowoczesny</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Budynek bez izolacji</string>
-        </property>
-       </item>
-      </widget>
      </item>
     </layout>
    </widget>
@@ -186,11 +154,17 @@ p, li { white-space: pre-wrap; }
    <addaction name="menuOblicz_swoje_zapotrzebowanie_cieplne"/>
   </widget>
   <action name="actionNew">
+   <property name="icon">
+    <iconset resource="MyRes.qrc">
+     <normaloff>:/Images/page.png</normaloff>:/Images/page.png</iconset>
+   </property>
    <property name="text">
     <string>New</string>
    </property>
   </action>
  </widget>
- <resources/>
+ <resources>
+  <include location="MyRes.qrc"/>
+ </resources>
  <connections/>
 </ui>
